@@ -1,0 +1,44 @@
+.Navbar{
+    font-family: "Lexend Giga";
+    padding:0;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.Link{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-weight: 700;
+}
+.Link:hover{
+    color: #B4B4BD;
+    text-decoration: none;
+    margin-right: 60px;
+}
+.Selected{
+    color: #B4B4BD;
+}
+
+
+@media(max-width:1200px){
+    .Link{
+        margin-right: 40px;
+    }
+    .Link:hover{
+        margin-right: 40px;
+    }
+
+}
+@media(max-width:992px){
+    .Link{
+        margin-right: 20px;
+    }
+    .Link:hover{
+        margin-right: 20px;
+    }
+
+}
+@media(max-width:574px){
+    .Links{
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,65 @@
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+.Card{
+    position: relative;
+    top: -50px;
+    padding-top: 40px;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.Header{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+.Seva{
+    height: 300px;
+}
+@media(max-width:1200px){
+    .Card{
+        padding-top: 40px;
+        background-color: white;
+        height: 200px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:940px){
+    .Card{
+
+        height: 250px;
+        width: 270px;
+
+    }
+}
+@media(max-width:770px){
+
+    .Header{
+        font-size: 2rem;
+    
+    }
+    .Card{
+        padding-top: 40px;
+        background-color: white;
+        height: 230px;
+        width: 350px;
+        margin-bottom: 40px;
+    }
+    .Seva{
+        height: 180px;
+    }
+}
+@media(max-width:550px){
+.parallax{
+    background-position: -40rem -8rem!important;
+    height: 570px;
+}
+}

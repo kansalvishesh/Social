@@ -1,0 +1,32 @@
+.Card{
+    width: 330px;
+    
+}
+.ContainerDiv{
+    width: 1000px;
+}
+@media(max-width:1200px){
+    .Card{
+        width: 270px;
+    }
+    .ContainerDiv{
+        width: 900px;
+    }
+}
+@media(max-width:990px){
+    .Card{
+        width: 220px;
+    }
+    .ContainerDiv{
+        width: 700px;
+    }
+}
+@media(max-width:550px){
+    .Card{
+        width: 150px;
+        height: 270px;
+    }
+    .ContainerDiv{
+        width: 500px;
+    }
+}

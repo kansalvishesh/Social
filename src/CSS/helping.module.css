@@ -1,0 +1,43 @@
+.Card{
+    width: 330px;
+    
+}
+.Img{
+    height: 300px;
+}
+@media(max-width:1200px){
+    .Card{
+        width: 300px;
+        
+    }
+    .Img{
+        height: 300px;
+    }
+}
+@media(max-width:990px){
+    .Card{
+        width: 200px;
+        
+    }
+    .Img{
+        height: 200px;
+    }
+}
+@media(max-width:750px){
+    .Card{
+        width: 250px;
+        
+    }
+    .Img{
+        height: 250px;
+    }
+}
+@media(max-width:550px){
+    .Card{
+        width: 300px;
+        
+    }
+    .Img{
+        height: 300px;
+    }
+}
